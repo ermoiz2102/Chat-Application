@@ -1,6 +1,9 @@
 # Chat-Application
 The Chat Application is a minor project that enables users to communicate with each other through a graphical user interface (GUI) while utilizing a server running on the command prompt. The project utilizes Java and JFrame for creating the GUI and establishing a local server for communication.
 
+ The communication between the server and the GUI is established using socket programming.
+ 
+
 The project utilizes multithreading to handle concurrent reading and writing operations between the server and the connected clients. This allows multiple users to communicate simultaneously without interfering with each other's messages.
 
 Dependencies:
